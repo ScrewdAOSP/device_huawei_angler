@@ -315,12 +315,12 @@ service loc_launcher /system/bin/loc_launcher
    group gps inet net_raw net_admin wifi
 
 # bugreport is triggered by holding down volume down, volume up and power
-service bugreport /system/bin/dumpstate -d -p -B \
-        -o /data/data/com.android.shell/files/bugreports/bugreport
-    class main
-    disabled
-    oneshot
-    keycodes 114 115 116
+#service bugreport /system/bin/dumpstate -d -p -B \
+#        -o /data/data/com.android.shell/files/bugreports/bugreport
+#    class main
+#    disabled
+#    oneshot
+#    keycodes 114 115 116
 
 # start camera server as daemon
 service qcamerasvr /vendor/bin/mm-qcamera-daemon
