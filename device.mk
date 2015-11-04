@@ -220,8 +220,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196609
 
+# DPI Settings
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=560
+    ro.sf.lcd_density=560 \
+    persist.sys.lcd_density=500
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
