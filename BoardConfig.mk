@@ -129,3 +129,10 @@ WIFI_DRIVER_FW_PATH_AP := "/vendor/firmware/fw_bcmdhd_apsta.bin"
 EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
+
+# Inline kernel building
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_SOURCE := kernel/huawei/angler
+TARGET_KERNEL_CONFIG := angler_defconfig
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
