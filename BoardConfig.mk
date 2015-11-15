@@ -22,10 +22,6 @@ TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a53
-CLANG_O3 := true
-STRICT_ALIASING := true
-GRAPHITE_OPTS := true
-ENABLE_GCCONLY := true
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
@@ -134,8 +130,3 @@ EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
 
-# Inline kernel building
-TARGET_GCC_VERSION_ARM64 := 4.9
-TARGET_KERNEL_SOURCE := kernel/huawei/angler
-TARGET_KERNEL_CONFIG := kylo_defconfig
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
