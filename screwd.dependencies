@@ -5,8 +5,8 @@
     "branch":      "m"
   },
   {
-    "repository": "ScrewdAOSP/kernel_huawei_angler",
+    "repository": "dsmitty166/AK-Angler",
     "target_path": "kernel/huawei/angler",
-    "branch":      "m"
+    "branch":      "ak-m"
   }
 ]
