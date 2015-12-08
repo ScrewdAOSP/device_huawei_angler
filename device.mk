@@ -358,8 +358,8 @@ PRODUCT_PACKAGES += \
 
 # limit dex2oat threads to improve thermals
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.dex2oat-threads=2 \
-    dalvik.vm.image-dex2oat-threads=4
+    dalvik.vm.dex2oat-threads=4 \
+    dalvik.vm.image-dex2oat-threads=6
 
 # old-apns.conf
 PRODUCT_COPY_FILES += \
