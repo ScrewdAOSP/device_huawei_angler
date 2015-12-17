@@ -1,0 +1,7 @@
+# hardware info
+ro.device.chipset=Qualcomm MSM8994 Snapdragon 810
+ro.device.cpu=Quad-core 2.0 GHz Cortex-A57
+ro.device.gpu=Qualcomm Adreno 430
+ro.device.rear_cam=12.3 MP
+ro.device.front_cam=8 MP
+ro.device.screen_res=1440 x 2560
