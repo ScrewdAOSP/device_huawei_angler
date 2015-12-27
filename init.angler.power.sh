@@ -91,6 +91,10 @@ write /sys/module/msm_performance/parameters/cpu_max_freq "4:4294967295 5:429496
 write /sys/module/cpu_boost/parameters/input_boost_freq "0:1344000"
 write /sys/module/cpu_boost/parameters/input_boost_ms 40
 
+# Switch to fiops scheduler and increase readahead buffer to 1024Kb
+write /sys/block/mmcblk0/queue/scheduler fiops
+write /sys/block/mmcblk0/bdi/read_ahead_kb 1024
+
 # Setting B.L scheduler parameters
 write /proc/sys/kernel/sched_migration_fixup 1
 write /proc/sys/kernel/sched_upmigrate 95
