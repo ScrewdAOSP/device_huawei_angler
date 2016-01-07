@@ -5,8 +5,8 @@
     "branch":      "m"
   },
   {
-    "repository": "dsmitty166/AK-Angler",
+    "repository": "anarkia1976/AK-Angler",
     "target_path": "kernel/huawei/angler",
-    "branch":      "ak-m"
+    "branch":      "ak-aosp-6.0.1-staging"
   }
 ]
