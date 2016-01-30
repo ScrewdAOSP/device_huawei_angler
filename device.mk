@@ -352,6 +352,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.eis.enable=1 \
     persist.camera.is_type=4
 
+# Supports Camera new API2
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1
+
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
    fs_config_files
