@@ -279,9 +279,11 @@ service thermal-engine /system/bin/thermal-engine
     group root radio
 
 # QMUX must be in multiple groups to support external process connections
+# change user from 'radio' to 'root' to stop logcat spam and allow qmi to set io_wake_lock/io_wake_unlock.  
+# see https://android.googlesource.com/device/lge/bullhead/+/95aa2b4e2d6c26ee1b37241bc22ec32a6382d3fb%5E!/#F0
 service qmuxd /system/bin/qmuxd
     class main
-    user radio
+    user root
     group radio audio bluetooth gps
 
 service perfd /system/bin/perfd
