@@ -5,8 +5,8 @@
     "branch":      "m"
   },
   {
-    "repository": "dsmitty166/Angler",
+    "repository": "saberCore/saberCore64",
     "target_path": "kernel/huawei/angler",
-    "branch":      "saberTest"
+    "branch":      "saberTest-e-uber"
   }
 ]
