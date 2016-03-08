@@ -210,6 +210,17 @@ on charger
    write /sys/devices/system/cpu/cpu6/online 0
    write /sys/devices/system/cpu/cpu7/online 0
 
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 18D1
+    write /sys/class/android_usb/android0/idProduct 4EE2
+    write /sys/class/android_usb/android0/bDeviceClass 0
+    write /sys/class/android_usb/android0/bDeviceSubClass 0
+    write /sys/class/android_usb/android0/bDeviceProtocol 0
+    write /sys/class/android_usb/android0/functions mtp,adb
+    write /sys/class/android_usb/android0/enable 1
+    start adbd
+    setprop sys.usb.state mtp,adb
+
 on property:sys.boot_completed=1
      #allow CPUs to go in deeper idle state than C0
      write /sys/module/lpm_levels/parameters/sleep_disabled 0
@@ -473,4 +484,3 @@ service diag_test_server /vendor/bin/diag_test_server
 
 on property:ro.boot.mode=hw-factory
     start diag_test_server
-
