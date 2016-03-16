@@ -356,7 +356,7 @@ PRODUCT_PACKAGES += \
 
 # limit dex2oat threads to improve thermals
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.boot-dex2oat-threads=4 \
+    dalvik.vm.boot-dex2oat-threads=6 \
     dalvik.vm.dex2oat-threads=4 \
     dalvik.vm.image-dex2oat-threads=6
 
