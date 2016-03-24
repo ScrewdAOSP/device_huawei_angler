@@ -36,50 +36,50 @@ write /sys/module/msm_thermal/parameters/limit_temp_degC 75
 
 #LITTLE
 write /sys/devices/system/cpu/cpu0/online 1
-write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor intelliactive
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 1708800
 
 write /sys/devices/system/cpu/cpu1/online 1
-write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor intelliactive
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1708800
 
 write /sys/devices/system/cpu/cpu2/online 1
-write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor intelliactive
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1708800
 
 write /sys/devices/system/cpu/cpu3/online 1
-write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor intelliactive
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1708800
 
 #big.
 write /sys/devices/system/cpu/cpu4/online 1
-write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor bioshock
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq 2054400
 
 write /sys/devices/system/cpu/cpu5/online 1
-write /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor bioshock
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq 2054400
 
 write /sys/devices/system/cpu/cpu6/online 1
-write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor bioshock
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq 2054400
 
 write /sys/devices/system/cpu/cpu7/online 1
-write /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor interactive
+write /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor bioshock
 restorecon -R /sys/devices/system/cpu
 write /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq 302400
 write /sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq 2054400
