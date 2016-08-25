@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "ScrewdAOSP/proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "branch":      "m"
+  },
+  {
+    "repository": "kernel_huawei_angler",
+    "target_path": "kernel/huawei/angler",
+    "branch":      "n"
+  }
+]
