@@ -259,6 +259,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+PRODUCT_PACKAGES += \
+    AOSPLinks
+
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
