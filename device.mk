@@ -473,4 +473,4 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4358
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/location/etc/gps.conf:system/etc/gps.conf:qcom
+    device/huawei/angler/gps.conf:system/etc/gps.conf:qcom
