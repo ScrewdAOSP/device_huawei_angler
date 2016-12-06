@@ -491,6 +491,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.rec_timeout=3500 \
     ro.facelock.est_max_time=600
 
+# miracast props
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.debug.wfd.enable=1
+
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8994.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
