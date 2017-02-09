@@ -138,6 +138,9 @@ on boot
     write /sys/block/mmcblk0/queue/rq_affinity 0
     write /sys/block/mmcblk0/queue/scheduler noop
 
+    # High Brightness Mode
+    chown system system /sys/devices/virtual/graphics/fb0/hbm
+
 on property:init.svc.per_mgr=running
     start per_proxy
 
