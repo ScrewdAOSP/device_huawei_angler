@@ -136,6 +136,9 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 #NFC
 NXP_CHIP_TYPE := 2
 
