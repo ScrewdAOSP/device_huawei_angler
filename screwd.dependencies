@@ -2,11 +2,11 @@
   {
     "repository": "ScrewdAOSP/proprietary_vendor_huawei",
     "target_path": "vendor/huawei",
-    "branch":      "o"
+    "branch":      "o8x"
   },
   {
     "repository": "ScrewdAOSP/kernel_huawei_angler",
     "target_path": "kernel/huawei/angler",
-    "branch":      "o"
+    "branch":      "o8x"
   }
 ]
